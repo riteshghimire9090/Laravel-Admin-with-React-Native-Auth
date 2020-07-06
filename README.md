@@ -195,6 +195,12 @@ return response()->json(['success'=>$success], $this-> successStatus);
 ```bash
 php artisan multiauth:install
 ```
+
+```bash
+php artisan passport:install
+```
+
+
 ```bash
 php artisan serve
 ```
